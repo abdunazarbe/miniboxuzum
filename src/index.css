@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.h-top {
+    box-shadow: 0 0 0 100vmax #F4F5F5;
+    background: #F4F5F5;
+    clip-path: inset(0 -100vmax);
+}
+
+.card_image {
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 0px -0.002px / 100% 100.001% no-repeat;
+}
+
+.p-galleria-thumbnail-items-container {
+    height: 100% !important;
+}
